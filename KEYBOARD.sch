@@ -1,0 +1,488 @@
+EESchema Schematic File Version 2
+LIBS:rfbacklight-cache
+LIBS:RHOCOCO-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Zilog
+LIBS:onsemi
+LIBS:mechanical
+LIBS:switches
+LIBS:RHOCOCCO-PROPELLER
+LIBS:martins_74hct574
+LIBS:martins_74HCT670
+LIBS:RHOCOCO-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Rhococo"
+Date "2019-06-11"
+Rev "2.1"
+Comp "Revspace"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D D2
+U 1 1 5B4F55D9
+P 3450 4400
+F 0 "D2" H 3300 4500 50  0000 C CNN
+F 1 "1N4148" H 3700 4500 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4400 50  0001 C CNN
+F 3 "" H 3450 4400 50  0001 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5B4F56C0
+P 3450 4600
+F 0 "D3" H 3300 4700 50  0000 C CNN
+F 1 "1N4148" H 3700 4700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4600 50  0001 C CNN
+F 3 "" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5B4F56E4
+P 3450 4800
+F 0 "D4" H 3300 4900 50  0000 C CNN
+F 1 "1N4148" H 3700 4900 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4800 50  0001 C CNN
+F 3 "" H 3450 4800 50  0001 C CNN
+	1    3450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5B4F5701
+P 3450 5000
+F 0 "D5" H 3300 5100 50  0000 C CNN
+F 1 "1N4148" H 3700 5100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5000 50  0001 C CNN
+F 3 "" H 3450 5000 50  0001 C CNN
+	1    3450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5B4F572D
+P 3450 5200
+F 0 "D6" H 3300 5300 50  0000 C CNN
+F 1 "1N4148" H 3700 5300 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5200 50  0001 C CNN
+F 3 "" H 3450 5200 50  0001 C CNN
+	1    3450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D7
+U 1 1 5B4F5771
+P 3450 5400
+F 0 "D7" H 3300 5500 50  0000 C CNN
+F 1 "1N4148" H 3700 5500 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5400 50  0001 C CNN
+F 3 "" H 3450 5400 50  0001 C CNN
+	1    3450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D8
+U 1 1 5B4F57B3
+P 3450 5600
+F 0 "D8" H 3300 5700 50  0000 C CNN
+F 1 "1N4148" H 3700 5700 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5600 50  0001 C CNN
+F 3 "" H 3450 5600 50  0001 C CNN
+	1    3450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5B4F5831
+P 3450 4200
+F 0 "D1" H 3300 4300 50  0000 C CNN
+F 1 "1N4148" H 3700 4300 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4200 50  0001 C CNN
+F 3 "" H 3450 4200 50  0001 C CNN
+	1    3450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS365 U9
+U 1 1 5B4F5D29
+P 4150 2700
+F 0 "U9" H 4150 3325 50  0000 C CNN
+F 1 "74HCT365" H 4150 3234 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 4150 2700 50  0001 C CNN
+F 3 "" H 4150 2700 50  0001 C CNN
+	1    4150 2700
+	-1   0    0    -1  
+$EndComp
+Text Label 6350 2300 0    60   ~ 0
+KeyData0
+Text Label 6350 2400 0    60   ~ 0
+KeyData1
+Text Label 6350 2500 0    60   ~ 0
+KeyData2
+Text Label 6350 2600 0    60   ~ 0
+KeyData3
+Text Label 6350 2700 0    60   ~ 0
+KeyData4
+Text Label 6350 2800 0    60   ~ 0
+KeyData5
+Wire Wire Line
+	3450 2300 3050 2300
+Wire Wire Line
+	3450 2400 3050 2400
+Wire Wire Line
+	3450 2500 3050 2500
+Wire Wire Line
+	3450 2600 3050 2600
+Wire Wire Line
+	3450 2700 3050 2700
+Wire Wire Line
+	3450 2800 3050 2800
+Wire Wire Line
+	4850 3000 4850 3550
+Wire Wire Line
+	4850 3550 3050 3550
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 2300 7950 2300
+Wire Wire Line
+	4850 2400 7950 2400
+Wire Wire Line
+	4850 2500 7950 2500
+Wire Wire Line
+	4850 2600 7950 2600
+Wire Wire Line
+	4850 2700 7950 2700
+Connection ~ 5550 2300
+Connection ~ 5650 2400
+Connection ~ 5750 2500
+Connection ~ 5850 2600
+Connection ~ 5950 2700
+Wire Wire Line
+	4850 2800 7950 2800
+Wire Wire Line
+	7000 2800 7000 3450
+Wire Wire Line
+	3600 4200 5600 4200
+Wire Wire Line
+	3600 4400 5500 4400
+Wire Wire Line
+	3600 4600 5400 4600
+Wire Wire Line
+	3600 4800 5300 4800
+Wire Wire Line
+	3600 5000 5300 5000
+Wire Wire Line
+	3600 5200 5400 5200
+Wire Wire Line
+	3600 5400 5500 5400
+Wire Wire Line
+	3600 5600 5600 5600
+$Comp
+L CONN_01X08 J9
+U 1 1 5B4F8D8D
+P 8200 4900
+F 0 "J9" H 8118 4325 50  0000 C CNN
+F 1 "CONN_01X08" H 8118 4416 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x08_Pitch2.54mm" H 8200 4900 50  0001 C CNN
+F 3 "" H 8200 4900 50  0001 C CNN
+	1    8200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB9_MALE J10
+U 1 1 5B4F95E6
+P 8350 3550
+F 0 "J10" H 8300 4100 50  0000 L CNN
+F 1 "DB9_MALE" H 8200 2950 50  0000 L CNN
+F 2 "rfbacklight:dB09-MALE" H 8350 3550 50  0001 C CNN
+F 3 "" H 8350 3550 50  0001 C CNN
+	1    8350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3450 8050 3450
+Wire Wire Line
+	5600 4550 8000 4550
+Wire Wire Line
+	5600 4200 5600 4550
+Wire Wire Line
+	5500 4650 8000 4650
+Wire Wire Line
+	5500 4400 5500 4650
+Wire Wire Line
+	5400 4750 8000 4750
+Wire Wire Line
+	5400 4600 5400 4750
+Wire Wire Line
+	5300 4850 8000 4850
+Wire Wire Line
+	5300 4800 5300 4850
+Wire Wire Line
+	5300 4950 8000 4950
+Wire Wire Line
+	5300 5000 5300 4950
+Wire Wire Line
+	8000 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 5200
+Wire Wire Line
+	8000 5150 5500 5150
+Wire Wire Line
+	5500 5150 5500 5400
+Wire Wire Line
+	8000 5250 5600 5250
+Wire Wire Line
+	5600 5250 5600 5600
+Wire Wire Line
+	8050 3350 7150 3350
+Wire Wire Line
+	7150 3350 7150 4550
+Connection ~ 7150 4550
+Wire Wire Line
+	8050 3550 7250 3550
+Wire Wire Line
+	7250 3550 7250 4650
+Connection ~ 7250 4650
+Wire Wire Line
+	8050 3750 7350 3750
+Wire Wire Line
+	7350 3750 7350 4750
+Connection ~ 7350 4750
+Wire Wire Line
+	8050 3850 7450 3850
+Wire Wire Line
+	7450 3850 7450 4850
+Connection ~ 7450 4850
+Wire Wire Line
+	8050 3950 7550 3950
+Wire Wire Line
+	7550 3950 7550 4950
+Connection ~ 7550 4950
+Text Label 6000 5050 0    60   ~ 0
+KeyAddress8
+Text Label 6000 4750 0    60   ~ 0
+KeyAddress9
+Text Label 6000 4650 0    60   ~ 0
+KeyAddress10
+Text Label 6000 4550 0    60   ~ 0
+KeyAddress11
+Text Label 6000 4850 0    60   ~ 0
+KeyAddress12
+Text Label 6000 4950 0    60   ~ 0
+KeyAddress13
+Text Label 6000 5150 0    60   ~ 0
+KeyAddress14
+Text Label 6000 5250 0    60   ~ 0
+KeyAddress15
+$Comp
+L CONN_01X06 J8
+U 1 1 5B4FA6E6
+P 8150 2550
+F 0 "J8" H 8150 2950 50  0000 C CNN
+F 1 "CONN_01X06" H 8068 2166 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 8150 2550 50  0001 C CNN
+F 3 "" H 8150 2550 50  0001 C CNN
+	1    8150 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 2800
+Text Notes 8400 2600 0    60   ~ 0
+Keyboard Kolumn
+Text Notes 8600 4900 0    60   ~ 0
+Keyboard Row
+Text Notes 9150 3600 0    60   ~ 0
+Joystick
+Text Notes 8550 3400 0    60   ~ 0
+Right
+Text Notes 8550 3500 0    60   ~ 0
+Common
+Text Notes 8550 3600 0    60   ~ 0
+Left
+Text Notes 8550 3800 0    60   ~ 0
+Down
+Text Notes 8550 3900 0    60   ~ 0
+Fire
+Text Notes 8550 4000 0    60   ~ 0
+Up
+$Comp
+L R_Network06 RN2
+U 1 1 5B57951E
+P 5750 1750
+F 0 "RN2" H 6029 1796 50  0000 L CNN
+F 1 "4K7 x 6 SIP" H 6029 1705 50  0000 L CNN
+F 2 "Resistors_THT:R_Array_SIP7" H 6029 1659 50  0001 L CNN
+F 3 "" H 5750 1750 50  0001 C CNN
+	1    5750 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR050
+U 1 1 5B4F80B6
+P 6050 1550
+F 0 "#PWR050" H 6050 1400 50  0001 C CNN
+F 1 "+5V" H 6065 1723 50  0000 C CNN
+F 2 "" H 6050 1550 50  0001 C CNN
+F 3 "" H 6050 1550 50  0001 C CNN
+	1    6050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 5B5A10E1
+P 5350 3300
+F 0 "C12" H 5465 3346 50  0000 L CNN
+F 1 "100nF" H 5465 3255 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5388 3150 50  0001 C CNN
+F 3 "" H 5350 3300 50  0001 C CNN
+	1    5350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 5B5A122E
+P 5350 3450
+F 0 "#PWR052" H 5350 3200 50  0001 C CNN
+F 1 "GND" H 5355 3277 50  0000 C CNN
+F 2 "" H 5350 3450 50  0001 C CNN
+F 3 "" H 5350 3450 50  0001 C CNN
+	1    5350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR051
+U 1 1 5B5A1296
+P 5350 3150
+F 0 "#PWR051" H 5350 3000 50  0001 C CNN
+F 1 "+5V" H 5365 3323 50  0000 C CNN
+F 2 "" H 5350 3150 50  0001 C CNN
+F 3 "" H 5350 3150 50  0001 C CNN
+	1    5350 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 2300 0    60   BiDi ~ 0
+Z80-D0
+Text GLabel 3050 2400 0    60   BiDi ~ 0
+Z80-D1
+Text GLabel 3050 2500 0    60   BiDi ~ 0
+Z80-D2
+Text GLabel 3050 2600 0    60   BiDi ~ 0
+Z80-D3
+Text GLabel 3050 2700 0    60   BiDi ~ 0
+Z80-D4
+Text GLabel 3050 2800 0    60   BiDi ~ 0
+Z80-D5
+Text GLabel 3050 3550 0    60   Input ~ 0
+nKEYBOARD_READ
+Text GLabel 3000 5200 0    60   Input ~ 0
+Z80-A8
+Text GLabel 3000 4600 0    60   Input ~ 0
+Z80-A9
+Text GLabel 3050 4400 0    60   Input ~ 0
+Z80-A10
+Text GLabel 3050 4200 0    60   Input ~ 0
+Z80-A11
+Text GLabel 3050 4800 0    60   Input ~ 0
+Z80-A12
+Text GLabel 3050 5000 0    60   Input ~ 0
+Z80-A13
+Text GLabel 3050 5400 0    60   Input ~ 0
+Z80-A14
+Text GLabel 3050 5600 0    60   Input ~ 0
+Z80-A15
+Wire Wire Line
+	4450 2250 4450 2100
+Wire Wire Line
+	4450 3150 4450 3250
+$Comp
+L +5V #PWR053
+U 1 1 5B6117B6
+P 4450 2100
+F 0 "#PWR053" H 4450 1950 50  0001 C CNN
+F 1 "+5V" H 4465 2273 50  0000 C CNN
+F 2 "" H 4450 2100 50  0001 C CNN
+F 3 "" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR054
+U 1 1 5B6117F9
+P 4450 3250
+F 0 "#PWR054" H 4450 3000 50  0001 C CNN
+F 1 "GND" H 4455 3077 50  0000 C CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 3150
+NoConn ~ 8050 3250
+NoConn ~ 8050 3650
+Wire Wire Line
+	3050 4200 3300 4200
+Wire Wire Line
+	3050 4400 3300 4400
+Wire Wire Line
+	3000 4600 3300 4600
+Wire Wire Line
+	3050 4800 3300 4800
+Wire Wire Line
+	3050 5000 3300 5000
+Wire Wire Line
+	3000 5200 3300 5200
+Wire Wire Line
+	3050 5400 3300 5400
+Wire Wire Line
+	3050 5600 3300 5600
+Wire Wire Line
+	5550 1950 5550 2300
+Wire Wire Line
+	5650 1950 5650 2400
+Wire Wire Line
+	5750 1950 5750 2500
+Wire Wire Line
+	5850 1950 5850 2600
+Wire Wire Line
+	5950 1950 5950 2700
+Wire Wire Line
+	6050 1950 6050 2800
+Connection ~ 6050 2800
+$EndSCHEMATC
