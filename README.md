@@ -1,6 +1,6 @@
 # Prototype-Rhococo
 Prototype of my Retro Home color computer, a 8-bit Z80 based home computer remake with 128 (bank switched) RAM, that uses a Parallax propeller chip for all the stuff that homecomputers from the previous century did with lots of simple CMOS logic circuits and sometimes dedicated VLSI chips did, such as generating TV pictures, and sound.
-My rhococo should be able to generate 27 colors of VGA video in 800 x 600 resolution, and should be able to generate PSG quality sound. 
+My rhococo should be able to generate 27 colors of VGA video in 512 x 480 resolution, and should be able to generate PSG quality sound. 
 instead of relying on cassette tapes, of floppy-disks, it can use SD-cards. It doesn't store its permanent memory on (E)PROMS but on a serial EEPROM read out by the propeller,and copied to Z80 RAM at boot time. 
 Its not based on any one retro computer but borrows ideas from all of them, mainly from the sinclair spectrum, Commodore 64, and MSX computers.
 
